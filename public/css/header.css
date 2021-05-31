@@ -4,11 +4,12 @@ header {
   left: 0;
   z-index: 1000;
   width: 100%;
+  background: #fff;
   padding: 1.5rem 10%;
   box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 header .logo img {
@@ -44,9 +45,7 @@ header #menu-bar {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 55%;
-  }
+
 
   header #menu-bar {
     display: block;
